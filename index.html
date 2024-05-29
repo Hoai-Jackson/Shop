@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H_Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="grid">
+                <nav class="navbar">
+                    <ul class="navbar__list">
+                        <li class="navbar__item navbar__item--show-qr separate">
+                            Vào cửa hàng trên ứng dụng Orange
+                            <div class="navbar__qr bridge-item">
+                                <img src="./assets/img/qr-app.png" alt="QR code" class="navbar__qr-img">
+                                <div class="navbar__qr-apps">
+                                    <a href="" class="navbar__qr-link">
+                                    <img src="./assets/img/ch-play.png" alt="Google play" class="navbar__qr-download">
+                                    </a>
+                                    <a href="" class="navbar__qr-link">
+                                        <img src="./assets/img/app-store.png" alt="App store" class="navbar__qr-download">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navbar__item">
+                            <span class="no-pointer">Kết nối</span>
+                            <a href="" class="navbar__icon-link">
+                                <i class="navbar__icon fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="" class="navbar__icon-link">
+                                <i class="navbar__icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <ul class="navbar__list">
+                        <li class="navbar__item navbar__item--show-notify">
+                            <a href="" class="navbar__item-link">
+                                <i class="navbar__icon fa-regular fa-bell"></i>
+                                Thông báo
+                            </a>
+                            <div class="navbar__notify bridge-item up-arrow">
+                                <header class="navbar__notify-header">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+                                <ul class="navbar__notify-list">
+                                    <li class="navbar__notify-item navbar__notify-item--viewed">
+                                        <a href="" class="navbar__notify-link">
+                                            <img src="https://product.hstatic.net/1000303351/product/anh_9_48ab5163422348abbc59f0fa3e4900ec_master.png" alt="" class="navbar__notify-img">
+                                            <div class="navbar__notify-info">
+                                                <span class="navbar__notify-name">Combo lemonade bút kẻ mắt supernatural và bút kẻ mắt micro eyeliner lemonade supertiger</span>
+                                                <span class="navbar__notify-desc">Đầu bút siêu nhỏ để vẽ được những nét mảnh sát chân mi, nhưng lại có thể linh hoạt để vẽ được những đường kẻ dày đậm cá tính</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="navbar__notify-item">
+                                        <a href="" class="navbar__notify-link">
+                                            <img src="https://product.hstatic.net/1000303351/product/12_f1106fb19f4d404b9cfd0375ec386fc6_master.png" alt="" class="navbar__notify-img">
+                                            <div class="navbar__notify-info">
+                                                <span class="navbar__notify-name">Son kem lì nhẹ môi Lemonade soaring lipcream</span>
+                                                <span class="navbar__notify-desc">Với kết cấu các hạt màu siêu nhỏ được liên kết chặt chẽ, Soaring Lipcream có độ che phủ cao chỉ với một lớp mỏng</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="navbar__notify-item">
+                                        <a href="" class="navbar__notify-link">
+                                            <img src="https://product.hstatic.net/1000303351/product/anh_7_bb7149a6e8b748218f9db9c96df17235_master.png" alt="" class="navbar__notify-img">
+                                            <div class="navbar__notify-info">
+                                                <span class="navbar__notify-name">Phấn nước mịn dành cho da khô và da thường Lemonade matte addict cushion</span>
+                                                <span class="navbar__notify-desc">Thích hợp sử dụng với da khô, da thường và da hỗn hợp thiên khô</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="navbar__notify-footer">
+                                    <a href="" class="navbar__notify-footer-btn">Xem tất cả</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__item-link">
+                                <i class="navbar__icon fa-regular fa-circle-question"></i>
+                                Trợ giúp
+                            </a>
+                        </li>
+                        <!-- <li class="navbar__item separate bold-letter-500">Đăng ký</li>
+                        <li class="navbar__item bold-letter-500">Đăng nhập</li> -->
+                        
+                        <!-- user info  -->
+                        <li class="navbar__item navbar__user">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsYEC3-XAXpnzxx7OweBciaK8INYmejtXYRySxQ8YH8g&s" alt="" class="navbar__user-avt">
+                            <span class="navbar__user-name">Handmade Store</span>
+
+                            <ul class="navbar__user-menu bridge-item up-arrow">
+                                <li class="navbar__user-item">
+                                    <a href="">Tài khoản của tôi</a>
+                                </li>
+                                <li class="navbar__user-item">
+                                    <a href="">Đơn mua</a>
+                                </li>
+                                <li class="navbar__user-item">
+                                    <a href="">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Header with search -->
+                <div class="header-with-search">
+                    <header class="header__logo">
+                        <a href="/" class="header__logo-link">
+                            <img src="./assets/img/logo.png" alt="" class="header__logo-img">
+                        </a>
+                    </header>
+
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm sản phẩm">
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">Son kem lì</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Phấn nước siêu kiềm dầu</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Cọ che khuyết điểm concealer brush</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- header selection -->
+                        <div class="header__search-select">
+                            <span class="header__search-select-label">Trong shop</span>
+                            <i class="header__search-select-icon fa-solid fa-chevron-down"></i>
+
+                            <ul class="header__search-option bridge-item">
+                                <li class="header__search-option-item header__search-option-active">
+                                    <span>Trong shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+
+                                <li class="header__search-option-item">
+                                    <span>Trong Orange</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+
+                    <!-- Cart layout -->
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                            <span class="header__cart-notice">3</span>
+
+                            <!-- No cart : header__cart-list--no-cart -->
+                            <div class="header__cart-list up-arrow">
+                                <img src="./assets/img/no-cart.png" alt="" class="header__cart-no-cart-img">
+                                <span class="header__cart-no-cart-msg">
+                                    Chưa có sản phẩm
+                                </span>
+
+                                <!-- Cart item -->
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="header__cart-list-item">
+                                    <li class="header__cart-item">
+                                        <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lt9rszrl61ztd7" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">LEN NHUNG ĐŨA, LEN BÔNG SỮA CUỘN 100GR</h5>
+                                                <div class="header__cart-item-cost">
+                                                    <span class="header__cart-item-price">7.600đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-quantity">3</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-desc">
+                                                    Phân loại: Trắng sữa
+                                                </span>
+                                                <div class="header__cart-item-del">Xoá</div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lotl62eh81n43b" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">COMBO 3 MÓC KHOÁ HOA CHUÔNG NHỎ</h5>
+                                                <div class="header__cart-item-cost">
+                                                    <span class="header__cart-item-price">18.050đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-quantity">2</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-desc">
+                                                    Phân loại: Hồng
+                                                </span>
+                                                <div class="header__cart-item-del">Xoá</div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lqj1zn0qg3puc4" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">KIM MÓC CÁN ĐỎ BẢN MỚI 2024 CHỐNG CHÓI (Kim thường, không phải Tulip)</h5>
+                                                <div class="header__cart-item-cost">
+                                                    <span class="header__cart-item-price">15.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-desc">
+                                                    Phân loại: 3.0mm
+                                                </span>
+                                                <div class="header__cart-item-del">Xoá</div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="https://product.hstatic.net/1000303351/product/8_fe926914e0bb497fbd086c300a6719b7_master.png" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Son kem mịn lì</h5>
+                                                <div class="header__cart-item-cost">
+                                                    <span class="header__cart-item-price">215.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-quantity">3</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-desc">
+                                                    Phân loại: Cam đất
+                                                </span>
+                                                <div class="header__cart-item-del">Xoá</div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="https://product.hstatic.net/1000303351/product/7_03be80caea7c40d8ba4805664a3c17d0_master.png" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Chì kẻ mày 2 đầu</h5>
+                                                <div class="header__cart-item-cost">
+                                                    <span class="header__cart-item-price">179.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-quantity">2</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-desc">
+                                                    Phân loại: natural brown
+                                                </span>
+                                                <div class="header__cart-item-del">Xoá</div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="https://product.hstatic.net/1000303351/product/tb_doi_bao_bi_34edf92610b34cc3a86c716012684e71_master.png" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Che khuyết điểm kiềm dầu</h5>
+                                                <div class="header__cart-item-cost">
+                                                    <span class="header__cart-item-price">179.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-desc">
+                                                    Phân loại: Cam đất
+                                                </span>
+                                                <div class="header__cart-item-del">Xoá</div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <a href="#" class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="app__container">
+            <div class="grid">
+                <div class="grid__row app__content">
+
+                    <!-- Category -->
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                Danh mục
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item__link">Len sợi đan móc</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Kim đan, kim móc</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Phụ kiện đan móc</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+    
+                    <div class="grid__column-10">
+                        <!-- Home sort + filter -->
+                        <div class="home-filter">
+                            <span class="home-filter__label">Sắp xếp theo</span>
+                            <button class="home-filter__btn btn">Phổ biến</button>
+                            <button class="home-filter__btn btn btn--primary">Mới nhất</button>
+                            <button class="home-filter__btn btn">Bán chạy</button>
+    
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="select-input__icon fa-solid fa-chevron-down"></i>
+
+                                <!-- Select input option -->
+                                <ul class="select-input__list bridge-item">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Thấp đến cao</a>
+                                    </li>
+
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Cao đến thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+    
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-current">1</span>/14
+                                </span>
+    
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn btn--disabled">
+                                        <i class="home-filter__page-icon fa-solid fa-chevron-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="home-filter__page-icon fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <div class="grid__row">
+                                <!-- Product item -->
+                                <div class="grid__column-2-4">
+                                    <a class="product-item" href="#">
+                                        <div class="product-item__img" style="background-image:url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-llq9h54pv4rj40);"></div>
+                                        <h4 class="product-item__name">LEN YAOH WOOL (MÀU TRƠN) ĐAN KHĂN CHOÀNG & ĐỒ MÙA ĐÔNG</h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price-old">30.000đ</span>
+                                            <span class="product-item__price-current">28.500đ</span>
+                                        </div>
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-empty fa-regular fa-heart"></i>
+                                                <i class="product-item__like-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__rating">
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="product-item__sold">757 đã bán</span>
+                                        </div>
+                                        <div class="product-item__origin">
+                                            <span class="product-item__brand">Crochet</span>
+                                            <span class="product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">5%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="product-item" href="#">
+                                        <div class="product-item__img" style="background-image:url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lo8mejmj7euv49);"></div>
+                                        <h4 class="product-item__name">KIM ĐAN GỖ CHO NGƯỜI MỚI BẮT ĐẦU (2 KIM)</h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price-old">20.000đ</span>
+                                            <span class="product-item__price-current">19.400đ</span>
+                                        </div>
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-empty fa-regular fa-heart"></i>
+                                                <i class="product-item__like-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__rating">
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="product-item__sold">151 đã bán</span>
+                                        </div>
+                                        <div class="product-item__origin">
+                                            <span class="product-item__brand">Crochet</span>
+                                            <span class="product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">3%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="product-item" href="#">
+                                        <div class="product-item__img" style="background-image:url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lohwmveuf35j78);"></div>
+                                        <h4 class="product-item__name">GHIM ĐÁNH DẤU NHỰA LOẠI TỐT</h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price-old">10.000đ</span>
+                                            <span class="product-item__price-current">9.800đ</span>
+                                        </div>
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-empty fa-regular fa-heart"></i>
+                                                <i class="product-item__like-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__rating">
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="product-item__sold">38 đã bán</span>
+                                        </div>
+                                        <div class="product-item__origin">
+                                            <span class="product-item__brand">Crochet</span>
+                                            <span class="product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">2%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="product-item" href="#">
+                                        <div class="product-item__img" style="background-image:url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lqj1zn0qg3puc4);"></div>
+                                        <h4 class="product-item__name">KIM MÓC CÁN ĐỎ BẢN MỚI 2024 CHỐNG CHÓI (Kim thường, không phải Tulip)</h4>
+                                        <div class="product-item__price">
+                                            <!-- <span class="product-item__price-old">359.000đ</span> -->
+                                            <span class="product-item__price-current">15.000đ</span>
+                                        </div>
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-empty fa-regular fa-heart"></i>
+                                                <i class="product-item__like-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__rating">
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="product-item__sold">7 đã bán</span>
+                                        </div>
+                                        <div class="product-item__origin">
+                                            <span class="product-item__brand">Crochet</span>
+                                            <span class="product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <!-- <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">43%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div> -->
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="product-item" href="#">
+                                        <div class="product-item__img" style="background-image:url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lqsfm7dcfpw278);"></div>
+                                        <h4 class="product-item__name">TAG/MÁC COTTON TRANG TRÍ SẢN PHẨM ĐAN MÓC</h4>
+                                        <div class="product-item__price">
+                                            <!-- <span class="product-item__price-old">359.000đ</span> -->
+                                            <span class="product-item__price-current">10.000đ</span>
+                                        </div>
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-empty fa-regular fa-heart"></i>
+                                                <i class="product-item__like-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__rating">
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="product-item__sold">29 đã bán</span>
+                                        </div>
+                                        <div class="product-item__origin">
+                                            <span class="product-item__brand">Crochet</span>
+                                            <span class="product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <!-- <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">43%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div> -->
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="product-item" href="#">
+                                        <div class="product-item__img" style="background-image:url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-loy2hztg1aore3);"></div>
+                                        <h4 class="product-item__name">KEO DÁN ĐA NĂNG UHU TUÝP 35ML</h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price-old">35.000đ</span>
+                                            <span class="product-item__price-current">34.300đ</span>
+                                        </div>
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-empty fa-regular fa-heart"></i>
+                                                <i class="product-item__like-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__rating">
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="product-item__sold">11 đã bán</span>
+                                        </div>
+                                        <div class="product-item__origin">
+                                            <span class="product-item__brand">Crochet</span>
+                                            <span class="product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">2%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="product-item" href="#">
+                                        <div class="product-item__img" style="background-image:url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lrx2l2nwxdw907);"></div>
+                                        <h4 class="product-item__name">LEN ỐNG COTTON LOVE ĐAN KHĂN CHOÀNG</h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price-old">30.000đ</span>
+                                            <span class="product-item__price-current">28.500đ</span>
+                                        </div>
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-empty fa-regular fa-heart"></i>
+                                                <i class="product-item__like-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__rating">
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="product-item__sold">27 đã bán</span>
+                                        </div>
+                                        <div class="product-item__origin">
+                                            <span class="product-item__brand">Crochet</span>
+                                            <span class="product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">5%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="product-item" href="#">
+                                        <div class="product-item__img" style="background-image:url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lotl62eh81n43b);"></div>
+                                        <h4 class="product-item__name">COMBO 3 MÓC KHOÁ HOA CHUÔNG NHỎ</h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price-old">19.000đ</span>
+                                            <span class="product-item__price-current">18.050đ</span>
+                                        </div>
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-empty fa-regular fa-heart"></i>
+                                                <i class="product-item__like-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__rating">
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="product-item__sold">102 đã bán</span>
+                                        </div>
+                                        <div class="product-item__origin">
+                                            <span class="product-item__brand">Crochet</span>
+                                            <span class="product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">5%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="product-item" href="#">
+                                        <div class="product-item__img" style="background-image:url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lt9rszrl61ztd7);"></div>
+                                        <h4 class="product-item__name">LEN NHUNG ĐŨA, LEN BÔNG SỮA CUỘN 100GR</h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price-old">8.000đ</span>
+                                            <span class="product-item__price-current">7.600đ</span>
+                                        </div>
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-empty fa-regular fa-heart"></i>
+                                                <i class="product-item__like-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__rating">
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="product-item__sold">199 đã bán</span>
+                                        </div>
+                                        <div class="product-item__origin">
+                                            <span class="product-item__brand">Crochet</span>
+                                            <span class="product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">5%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="product-item" href="#">
+                                        <div class="product-item__img" style="background-image:url(https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lhf04qni4o7966);"></div>
+                                        <h4 class="product-item__name">LEN NHUNG MÈO LEN NHUNG ĐŨA SỢI NHỎ MỀM MỊN ĐẸP</h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price-old">25.500đ</span>
+                                            <span class="product-item__price-current">21.000đ</span>
+                                        </div>
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-empty fa-regular fa-heart"></i>
+                                                <i class="product-item__like-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__rating">
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="product-item__sold">264 đã bán</span>
+                                        </div>
+                                        <div class="product-item__origin">
+                                            <span class="product-item__brand">Crochet</span>
+                                            <span class="product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">18%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="product-item" href="#">
+                                        <div class="product-item__img" style="background-image:url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ltvsd2dsf0ne85);"></div>
+                                        <h4 class="product-item__name">LEN MILK COTTON 50G ĐAN MÓC KHĂN, ÁO, THÚ BÔNG, TÚI XÁCH, ĐỒ TRANG TRÍ (ĐỦ BẢNG MÀU 01 - 86)</h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price-old">15.000đ</span>
+                                            <span class="product-item__price-current">8.550đ</span>
+                                        </div>
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-empty fa-regular fa-heart"></i>
+                                                <i class="product-item__like-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__rating">
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="product-item__sold">70,7k đã bán</span>
+                                        </div>
+                                        <div class="product-item__origin">
+                                            <span class="product-item__brand">Crochet</span>
+                                            <span class="product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">43%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="product-item" href="#">
+                                        <div class="product-item__img" style="background-image:url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lnxh8ci5vq0q3b);"></div>
+                                        <h4 class="product-item__name">SET 100 DÂY KẼM NHUNG DÀY ĐẸP LÀM HOA</h4>
+                                        <div class="product-item__price">
+                                            <!-- <span class="product-item__price-old">25.00đ</span> -->
+                                            <span class="product-item__price-current">35.000đ</span>
+                                        </div>
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-empty fa-regular fa-heart"></i>
+                                                <i class="product-item__like-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__rating">
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="product-item__sold">55 đã bán</span>
+                                        </div>
+                                        <div class="product-item__origin">
+                                            <span class="product-item__brand">Crochet</span>
+                                            <span class="product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <!-- <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">18%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div> -->
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="product-item" href="#">
+                                        <div class="product-item__img" style="background-image:url(https://down-vn.img.susercontent.com/file/vn-11134201-23020-jy5tw2mu8tnv9d);"></div>
+                                        <h4 class="product-item__name">MẮT THÚ CÓ CHỐT GÀI AN TOÀN (1 CẶP)</h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price-old">1.500đ</span>
+                                            <span class="product-item__price-current">1.350đ</span>
+                                        </div>
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-empty fa-regular fa-heart"></i>
+                                                <i class="product-item__like-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__rating">
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="product-item__sold">7,7k đã bán</span>
+                                        </div>
+                                        <div class="product-item__origin">
+                                            <span class="product-item__brand">Crochet</span>
+                                            <span class="product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">10%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="product-item" href="#">
+                                        <div class="product-item__img" style="background-image:url(https://down-vn.img.susercontent.com/file/235502d2194e38a266f13ed7e44155b5);"></div>
+                                        <h4 class="product-item__name">KIM NHỰA KHÂU LEN</h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price-old">2.000đ</span>
+                                            <span class="product-item__price-current">1.800đ</span>
+                                        </div>
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-empty fa-regular fa-heart"></i>
+                                                <i class="product-item__like-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__rating">
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="product-item__sold">6,2k đã bán</span>
+                                        </div>
+                                        <div class="product-item__origin">
+                                            <span class="product-item__brand">Crochet</span>
+                                            <span class="product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">10%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="product-item" href="#">
+                                        <div class="product-item__img" style="background-image:url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lpkp9kv6w4vj9e);"></div>
+                                        <h4 class="product-item__name">LEN POM POM DỆT KIM CẦU VỒNG-LEN SỢI TO ĐAN KHĂN LEN ĐAN MŨ 150G</h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price-old">89.000đ</span>
+                                            <span class="product-item__price-current">81.100đ</span>
+                                        </div>
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__liked">
+                                                <i class="product-item__like-empty fa-regular fa-heart"></i>
+                                                <i class="product-item__like-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__rating">
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="product-item__origin">
+                                            <span class="product-item__brand">Crochet</span>
+                                            <span class="product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">10%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pagination -->
+                        <ul class="pagination product__pagination">
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon fa-solid fa-chevron-left"></i>
+                                </a>
+                            </li>
+
+                            <li class="pagination-item pagination-item--active">
+                                <a href="" class="pagination-item__link">1</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">2</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">3</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">4</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">5</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">...</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">14</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon fa-solid fa-chevron-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="" class="footer__item-link">Trung tâm trợ giúp</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__item-link">Shop mall</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__item-link">Hướng dẫn mua hàng</a>                            
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__item-link">Hướng dẫn bán hàng</a>                            
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__item-link">Vận chuyển</a>                            
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__item-link">Trả hàng & hoàn tiền</a>                            
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__item-link">Chăm sóc khách hàng</a>                            
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__item-link">Chính sách bảo hành</a>                            
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Về chúng tôi</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="" class="footer__item-link">Giới thiệu</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__item-link">Tuyển dụng</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__item-link">Điều khoản</a>                            
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__item-link">Chính sách bảo mật</a>                            
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__item-link">Kênh người bán</a>                            
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Thanh toán</h3>
+                        <ul class="footer__list-item">
+                            <li class="footer__item">
+                                <img src="./assets/img/payment_card/visa-logo.png" alt="" class="footer__payment-img">
+                            </li>
+                            <li class="footer__item">
+                                <img src="./assets/img/payment_card/mastercard-logo.png" alt="" class="footer__payment-img">
+                            </li>
+                            <li class="footer__item">
+                                <img src="./assets/img/payment_card/JCB_logo.svg.webp" alt="" class="footer__payment-img">
+                            </li>
+                            <li class="footer__item">
+                                <img src="./assets/img/payment_card/amex-payment.png" alt="" class="footer__payment-img">
+                            </li>
+                        </ul>
+
+                        <h3 class="footer__heading">Đơn vị vận chuyển</h3>
+                        <ul class="footer__list-item">
+                            <li class="footer__item">
+                                <img src="./assets/img/shipping_unit/Logo-Viettel-Post-Transparent.png" alt="" class="footer__payment-img">
+                            </li>
+                            <li class="footer__item">
+                                <img src="./assets/img/shipping_unit/Vietnam_Post_logo.png" alt="" class="footer__payment-img">
+                            </li>
+                            <li class="footer__item">
+                                <img src="./assets/img/shipping_unit/logo-ahamove.png" alt="" class="footer__payment-img">
+                            </li>
+                            <li class="footer__item">
+                                <img src="./assets/img/shipping_unit/grab-express-logo.webp" alt="" class="footer__payment-img">
+                            </li>
+                            <li class="footer__item">
+                                <img src="./assets/img/shipping_unit/logo-be.png" alt="" class="footer__payment-img">
+                            </li>
+                            <li class="footer__item">
+                                <img src="./assets/img/shipping_unit/jt.png.webp" alt="" class="footer__payment-img">
+                            </li>
+                            <li class="footer__item">
+                                <img src="./assets/img/shipping_unit/Giao-hang-tiet-kiem-Logo.png" alt="" class="footer__payment-img">
+                            </li>
+                            <li class="footer__item">
+                                <img src="./assets/img/shipping_unit/Logo-GHN.webp" alt="" class="footer__payment-img">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Theo dõi chúng tôi trên</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="" class="footer__item-link">
+                                    <i class="footer__item-icon fa-brands fa-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__item-link">
+                                    <i class="footer__item-icon fa-brands fa-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__item-link">
+                                    <i class="footer__item-icon fa-brands fa-linkedin"></i>
+                                    Linkedin
+                                </a>                            
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
+                        <div class="footer__download">
+                            <img src="./assets/img/qr-app.png" alt="Download QR" class="footer__download-qr">
+                            <div class="footer__download-apps">
+                                <a href="" class="footer__download-app-link">
+                                    <img src="./assets/img/ch-play.png" alt="Google Play" class="footer__download-app-img">
+                                </a>
+                                <a href="" class="footer__download-app-link">
+                                    <img src="./assets/img/app-store.png" alt="App Store" class="footer__download-app-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="grid">
+                    <p class="footer__text">© 2024 - Bản quyền thuộc về Công ty Orange</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Modal layout -->
+    <!-- <div class="modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__body"> -->
+            <!-- Register form -->
+            <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng ký</h3>
+                        <span class="auth-form__switch-btn">Đăng nhập</span>
+                    </div>
+
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Email của bạn"></input>
+                        </div>
+
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn"></input>
+                        </div>
+
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu của bạn"></input>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">
+                            Bằng việc đăng kí, bạn đã đồng ý với chúng tôi về
+                            <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a> &
+                            <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+
+                    <div class="auth-form__control">
+                        <button class="btn btn--normal auth-form__control-back">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG KÝ</button>
+                    </div>
+                    
+                </div>
+
+                <div class="auth-form__social">
+                    <a href="" class="auth-form__social--fb btn btn--size-s btn--with-icon">
+                        <i class="auth-form__social-icon fa-brands fa-square-facebook"></i>
+                        <span class="auth-form__social-title">
+                            Kết nối với Facebook
+                        </span>
+                    </a>
+
+                    <a href="" class="auth-form__social--gg btn btn--size-s btn--with-icon">
+                        <i class="auth-form__social-icon fa-brands fa-google"></i>
+                        <span class="auth-form__social-title">
+                            Kết nối với Google
+                        </span>
+                    </a>
+                </div>
+
+            </div> -->
+            <!-- End register -->
+
+            <!-- Login form -->
+            <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng nhập</h3>
+                        <span class="auth-form__switch-btn">Đăng ký</span>
+                    </div>
+
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Email của bạn"></input>
+                        </div>
+
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn"></input>
+                        </div>
+
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <div class="auth-form__help">
+                            <a href="" class="auth-form__help-link auth-form__help-forgot">Quên mật khẩu</a>
+                            <span class="auth-form__help-separate"></span>
+                            <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__control">
+                        <button class="btn btn--normal auth-form__control-back">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                    </div>
+                    
+                </div>
+
+                <div class="auth-form__social">
+                    <a href="" class="auth-form__social--fb btn btn--size-s btn--with-icon">
+                        <i class="auth-form__social-icon fa-brands fa-square-facebook"></i>
+                        <span class="auth-form__social-title">
+                            Kết nối với Facebook
+                        </span>
+                    </a>
+
+                    <a href="" class="auth-form__social--gg btn btn--size-s btn--with-icon">
+                        <i class="auth-form__social-icon fa-brands fa-google"></i>
+                        <span class="auth-form__social-title">
+                            Kết nối với Google
+                        </span>
+                    </a>
+                </div>
+
+            </div> -->
+            <!-- End login -->
+        <!-- </div>
+    </div> -->
+</body>
+</html>
